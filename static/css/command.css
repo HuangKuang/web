@@ -1,0 +1,129 @@
+
+/*背景色*/
+
+
+
+/*导航*/
+#nav {
+    width: 1600px;
+    margin: 0 auto;
+    padding-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+/* 1.清除默认样式 */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*body {*/
+    /*color: gray;*/
+/*}*/
+
+a {
+    color: #333;
+    /*取消超链接的下划线*/
+    text-decoration: none;
+}
+
+/*导航*/
+/*#nav{*/
+/*!*子元素全部浮动导致父元素高度为0，*/
+/*影响布局和样式，可以为父元素固定高度*/
+/*height:50px;*/
+/**!*/
+/*!*overflow:hidden;*!*/
+/**/
+
+.clear {
+    clear: both;
+}
+
+#nav ul {
+    float: right;
+}
+
+#nav li {
+
+    float: left;
+    margin-left: 40px;
+}
+
+#nav li {
+    font-size: 30px;
+    background: yellowgreen;
+}
+
+#nav li select{
+    font-size: 30px;
+    background: yellowgreen;
+}
+
+/* 4.展示图片 */
+#command {
+    height: 240px;
+    margin: 10px 0;
+}
+
+#command div {
+    width: 326px;
+    height: 240px;
+    float: left;
+    margin-right: 11px;
+}
+
+#command div:last-child {
+    margin: 0;
+}
+
+#command .command1 {
+    background: url("/static/image/a1.jpg");
+
+}
+
+#command .command1 img {
+    float: right;
+    width: 130px;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+#command .command2 {
+    background: url("/static/image/a2.jpg");
+}
+
+#command .command2 img {
+    width: 130px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#command .command3 {
+    background: url("/static/image/a3.jpg");
+}
+
+#command .command3 img {
+    width: 130px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#command .command4 {
+    background: url("/static/image/a4.jpg");
+}
+
+#command .command4 img {
+    float: right;
+    width: 130px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+/*body {*/
+    /*background-color: rebeccapurple;*/
+/*}*/
